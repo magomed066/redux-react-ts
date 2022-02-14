@@ -4,7 +4,6 @@ import { ListGroup } from 'react-bootstrap'
 import { useAction } from '../../hooks/useAction'
 import { useTypedSelector } from '../../hooks/usedTypesSelector'
 import ErrorMessage from '../error-message/ErrorMessage'
-import Skeleton from '../skeleton/Skeleton'
 import Spinner from '../spinner/Spinner'
 
 const TodoList: React.FC = () => {
